@@ -10,7 +10,7 @@ This project aims to detect and count the number of distinct person in a given i
 
 Detailed list of packages provided in requirements.txt
 
-## Program Descriptions
+## Program Descriptions + Sample Outputs
 
 - **yolov8x.py**: Simple object detection using Yolov8x.pt model.
 - **yolov8x_plus_iou.py**: Detection + Tracking using Interaction Over Union (IOU) -- Highly inaccurate tracking mechanism.
