@@ -25,9 +25,12 @@ For detailed list of packages used, check requirements.txt
     ![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-01-DeepSORT.gif)
 
 5. Additional Footage: 
+
 ![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif)
 
+![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/topview.gif)
 
+![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/topview.gif)
 
 
 ## GPU Load Measured while Inferencing
