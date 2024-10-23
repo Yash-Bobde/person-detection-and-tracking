@@ -71,7 +71,7 @@ def track_and_count_people(video_path, iou_threshold=0.5):
                     1, (0, 255, 255), 2, cv2.LINE_AA)
 
         # Display the frame
-        cv2.imshow("YOLOv8 People Detection with Tracking", frame)
+        cv2.imshow("YOLOv8 People Detection with Tracking",  cv2.resize(frame, (960, 540)))
 
         # Break the loop if 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -82,5 +82,5 @@ def track_and_count_people(video_path, iou_threshold=0.5):
     print(f"Total unique people detected in the video: {len(unique_people)}")
 
 # Example usage
-video_path = 'videos/1.mp4'  # Replace with your video path
+video_path = 'videos/3.mp4'  # Replace with your video path
 track_and_count_people(video_path)

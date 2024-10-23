@@ -70,7 +70,7 @@ def count_and_display_people(video_path):
                     1, (0, 255, 255), 2, cv2.LINE_AA)
 
         # Display the frame
-        cv2.imshow("YOLO + SORT Tracking", frame)
+        cv2.imshow("YOLO + SORT Tracking", cv2.resize(frame, (960, 540)))
 
         # Press 'q' to quit the video early
         if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -84,5 +84,5 @@ def count_and_display_people(video_path):
     print(f"Total unique people detected in the video: {len(unique_person_ids)}")
     
 # Example usage
-video_path = 'videos/1.mp4'  # Replace with your video path
+video_path = 'videos/3.mp4'  # Replace with your video path
 count_and_display_people(video_path)

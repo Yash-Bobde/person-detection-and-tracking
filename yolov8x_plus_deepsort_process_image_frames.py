@@ -86,7 +86,7 @@ def count_and_display_people(image_folder_path):
                     1, (0, 255, 255), 2, cv2.LINE_AA)
 
         # Display the frame
-        cv2.imshow("YOLO + DeepSORT Tracking", cv2.resize(frame, (1920, 1080)))
+        cv2.imshow("YOLO + DeepSORT Tracking", cv2.resize(frame, (960, 540)))
 
         # Press 'q' to quit early
         if cv2.waitKey(1) & 0xFF == ord('q'):
