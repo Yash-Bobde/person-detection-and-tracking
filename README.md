@@ -16,7 +16,7 @@ For detailed list of packages used, check requirements.txt
     ![Simple object detection using Yolov8x.pt model.](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
 
 2. Detection + Tracking using Interaction Over Union (IOU) -- Highly inaccurate tracking mechanism. (Source: **yolov8x_plus_iou.py**)
-    ![Detection + Tracking using Interaction Over Union (IOU)](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
+    ![Detection + Tracking using Interaction Over Union (IOU)](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-01-iou.gif)
 
 3. Detection + Tracking using SORT Tracker https://github.com/abewley/sort -- Significantly more accurate than IOU. (Source: **yolov8x_plus_sort.py**)
     ![Detection + Tracking using SORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
