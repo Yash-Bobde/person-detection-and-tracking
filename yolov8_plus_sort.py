@@ -1,7 +1,7 @@
 import cv2
 import numpy as np  # Import numpy for array manipulation
 from ultralytics import YOLO
-from sort import Sort  # Import SORT tracker
+from sort import Sort  # Import SORT tracker https://github.com/abewley/sort
 
 # Initialize the YOLO model
 model = YOLO('yolov8x.pt')  # Replace with the correct model if needed
