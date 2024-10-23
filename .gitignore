@@ -1,2 +1,8 @@
 yolov8l.pt
 yolov8n.pt
+sort.py
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+yolov9e.pt
