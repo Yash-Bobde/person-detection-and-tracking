@@ -30,14 +30,11 @@ For detailed list of packages used, check requirements.txt
 
 ![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/topview.gif)
 
-![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/topview.gif)
 
-
-## GPU Load Measured while Inferencing
+## GPU Load Measured while Inferencing (Notice 1200MHz and VRAM gets pushed to 7800MHz)
 ![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-12.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-12.gif)
 
 ## Data Sources
 - https://motchallenge.net/data/MOT16/
 - https://www.youtube.com/watch?v=WvhYuDvH17I
 - https://www.youtube.com/watch?v=ZvzKuqSDyG8
-
