@@ -92,5 +92,5 @@ def count_and_display_people(video_path):
     print(f"Total unique people detected in the video: {len(unique_person_ids)}")
 
 # Example usage
-video_path = 'videos/1.mp4'  # Replace with your video path
+video_path = 'videos/3.mp4'  # Replace with your video path
 count_and_display_people(video_path)
