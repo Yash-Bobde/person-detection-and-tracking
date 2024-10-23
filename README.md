@@ -21,12 +21,12 @@ This project aims to detect and count the number of distinct person in a given i
 - Python (version required: `>=3.8`)
 
 ## Installation
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/insp7/cv-proj3.git
    cd cv-proj3
 
-2. Set up a virtual environment (optional but recommended):
+Set up a virtual environment (optional but recommended):
     ```bash
     # Create a virtual environment
     python -m venv venv
