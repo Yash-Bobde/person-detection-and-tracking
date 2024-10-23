@@ -3,47 +3,22 @@
 ## Overview
 This project aims to detect and count the number of distinct person in a given input video stream using Yolov8x for object detection and DeepSORT object tracking.
 
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Model Configuration](#model-configuration)
-- [Tracking Mechanisms](#tracking-mechanisms)
-- [Results](#results)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Execution Configuration
 - **GPU**: NVIDIA RTX 3070
-- **Model**: YOLOv8x.pt for object detection
+- **Model**: YOLOv8x for object detection + DeepSORT for object Tracking
 - **Python Version:**: 3.11.10
-- **Python Version:**: 3.11.10
-- Python (version required: `>=3.8`)
 
-## Installation
-Clone the repository:
-   ```bash
-   git clone https://github.com/insp7/cv-proj3.git
-   cd cv-proj3
+Detailed list of packages provided in requirements.txt
 
-Set up a virtual environment (optional but recommended):
-    ```bash
-    # Create a virtual environment
-    python -m venv venv
+## Program Descriptions
 
-    # Activate the virtual environment
-    # Windows
-    .\venv\Scripts\activate
+- **yolov8x.py**: Simple object detection using Yolov8x.pt model.
+- **yolov8x_plus_iou.py**: Detection + Tracking using Interaction Over Union (IOU) -- Highly inaccurate tracking mechanism.
+- **yolov8x_plus_sort.py**: Detection + Tracking using SORT Tracker https://github.com/abewley/sort -- Significantly more accurate than IOU.
+- **yolov8x_plus_deepsort.py**: Detection + Tracking using DeepSORT Tracker https://github.com/nwojke/deep_sort -- Again, a huge improvement over SORT.
+- **yolov8x_plus_deepsort_process_image_frames.py**: Added functionality to accept a directory of images which then can be processed as frames for the input video.
 
-    # macOS/Linux
-    source venv/bin/activate
-
-To set up a virtual environment using Anaconda:
-
-    ```bash
-    # If you don\'t have Anaconda installed, you can download it from the Anaconda website.
-    # Create a new conda environment:
-    conda create --name person_tracking python=3.11
-
-    # Activate the virtual environment:
-    conda activate person_tracking
+## Data Sources
+- https://motchallenge.net/data/MOT16/
+- https://www.youtube.com/watch?v=WvhYuDvH17I
+- https://www.youtube.com/watch?v=ZvzKuqSDyG8
