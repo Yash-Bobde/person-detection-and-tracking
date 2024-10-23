@@ -22,12 +22,16 @@ For detailed list of packages used, check requirements.txt
     ![Detection + Tracking using SORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-01-SORT.gif)
 
 4. Detection + Tracking using DeepSORT Tracker https://github.com/nwojke/deep_sort -- Again, a huge improvement over SORT. (Source: **yolov8x_plus_deepsort.py**)
-    ![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
+    ![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-01-DeepSORT.gif)
 
-## Some Additional Tracking Footage
-![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
-![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
-![Detection + Tracking using DeepSORT Tracker](https://github.com/insp7/cv-proj3/blob/master/gifs/1Person.gif)
+5. Additional Footage: 
+![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-06.gif)
+
+
+
+
+## GPU Load Measured while Inferencing
+![https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-12.gif](https://github.com/insp7/cv-proj3/blob/master/gifs/moti16-12.gif)
 
 ## Data Sources
 - https://motchallenge.net/data/MOT16/
