@@ -1,5 +1,10 @@
 # Person Detection(Yolov8x) & Tracking(DeepSORT) in Video Streams.
 
+By:
+Aniket Konkar
+Yash Manish Bobde
+Sakshi Agrawal
+
 ## Overview
 This project aims to detect and count the number of distinct person in a given input video stream using Yolov8x for object detection and DeepSORT object tracking.
 
