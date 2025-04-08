@@ -2,7 +2,7 @@
 
 By:
 Aniket Konkar,
-Yash Manish Bobde,
+Yash Manish Bobde and
 Sakshi Agrawal
 
 ## Overview
