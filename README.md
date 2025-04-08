@@ -1,8 +1,8 @@
 # Person Detection(Yolov8x) & Tracking(DeepSORT) in Video Streams.
 
 By:
-Aniket Konkar
-Yash Manish Bobde
+Aniket Konkar,
+Yash Manish Bobde,
 Sakshi Agrawal
 
 ## Overview
